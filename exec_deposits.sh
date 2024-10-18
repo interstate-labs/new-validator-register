@@ -33,7 +33,7 @@ while read x; do
    ethereal beacon deposit \
       --allow-unknown-contract=$FORCE_DEPOSIT \
       --address="$DEPOSIT_CONTRACT_ADDRESS" \
-      --connection=http://162.55.190.235:35245 \
+      --connection=http://162.55.190.235:35323 \
       --data="$x" \
       --value="$DEPOSIT_ACTUAL_VALUE" \
       --from="$ETH1_FROM_ADDR" \
