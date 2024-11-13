@@ -33,7 +33,7 @@ while read x; do
    ethereal beacon deposit \
       --allow-unknown-contract=$FORCE_DEPOSIT \
       --address="$DEPOSIT_CONTRACT_ADDRESS" \
-      --connection=http://37.27.37.181:32793 \
+      --connection=https://holesky.drpc.org \
       --data="$x" \
       --value="$DEPOSIT_ACTUAL_VALUE" \
       --from="$ETH1_FROM_ADDR" \
